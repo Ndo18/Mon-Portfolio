@@ -1,0 +1,12 @@
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.navbar li {
+  text-decoration: none;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=Navbar.css.map */
