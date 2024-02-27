@@ -11,7 +11,7 @@ function Footer() {
             }, 1000 * 60 * 60 * 24 * 365)
 
             return () => clearInterval(intervalId)
-        })
+        },[])
 
     return(
         <footer className="footer">
