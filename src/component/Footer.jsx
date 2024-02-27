@@ -15,6 +15,8 @@ function Footer() {
 
     return(
         <footer className="footer">
+            {/* <i className="fa-brands fa-github"></i>
+            <i className="fa-brands fa-linkedin"></i> */}
             <div><i className="fa-regular fa-copyright"></i> {currentYear} Samuel DOUMBE LOBE, Tous droits réservés.</div>
         </footer>
     )
