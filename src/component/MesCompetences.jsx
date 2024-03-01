@@ -1,10 +1,10 @@
 
 
-function MesCompetences () {
+function MesCompetences ({children}){
     return (
         <div>
-            <h1>Mes compétences Front-End</h1>
-            <article></article>
+            <h1>Mes Compétences</h1>
+            {children}
         </div>
     )
 }

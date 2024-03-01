@@ -3,19 +3,19 @@
         "id": "1",
         "name": "HTML",
         "logo": "",
-        "bibliotheque":{
+        "bibliotheque":[{
                         "name":"",
                         "logo":""
-        }
+        }]
     },
     {
         "id": "2",
         "name": "CSS",
         "logo": "",
-        "bibliotheque":{
+        "bibliotheque":[{
                         "name":"SCSS",
                         "logo":""
-        }
+        }]
     },
     {
         "id": "3",
@@ -34,63 +34,53 @@
         "id": "4",
         "name": "SEO",
         "logo": "",
-        "bibliotheque":{
+        "bibliotheque":[{
                         "name":"",
                         "logo":""
-        }
+        }]
     },
     {
         "id": "5",
         "name": "Déboggage",
         "logo": "",
-        "bibliotheque":{
+        "bibliotheque":[{
                         "name":"",
                         "logo":""
-        }
-    },
-    {
+        }]
+    }, {
         "id": "6",
-        "name": "",
+        "name": "Gestion de projet Agile",
         "logo": "",
-        "bibliotheque":{
+        "bibliotheque":[{
                         "name":"",
                         "logo":""
-        }
+        }]
     },
     {
         "id": "7",
-        "name": "",
+        "name": "API",
         "logo": "",
-        "bibliotheque":{
+        "bibliotheque":[{
                         "name":"",
                         "logo":""
-        }
+        }]
     },
     {
         "id": "8",
-        "name": "",
+        "name": "NodeJS",
         "logo": "",
-        "bibliotheque":{
+        "bibliotheque":[{
                         "name":"",
                         "logo":""
-        }
+        }]
     },
     {
         "id": "9",
-        "name": "",
+        "name": "MongoDB",
         "logo": "",
-        "bibliotheque":{
+        "bibliotheque":[{
                         "name":"",
                         "logo":""
-        }
-    },
-    {
-        "id": "10",
-        "name": "",
-        "logo": "",
-        "bibliotheque":{
-                        "name":"",
-                        "logo":""
-        }
+        }]
     }
 ]
