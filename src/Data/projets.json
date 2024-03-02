@@ -1,20 +1,26 @@
 [
     {
         "id": "1",
-        "title": "Booki, site agence de voyage",
-        "lien": "",
-        "cover": ""
+        "title": "Oh my Food !",
+        "lien": "https://ndo18.github.io/Projet4/index.html",
+        "cover": "",
+        "type": "HTML/CSS",
+        "description": ""
     },
     {
         "id": "2",
         "title": "Portfolio de l'architecte Sophie Bluel",
         "lien": "",
-        "cover": ""
+        "cover": "",
+        "type": "JavaScript",
+        "description": ""
     },
     {
         "id": "3",
         "title": "Kasa, application de location immobilière",
         "lien": "",
-        "cover": ""
+        "cover": "",
+        "type": "React.Js",
+        "description": ""
     }
 ]
