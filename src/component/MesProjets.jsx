@@ -17,7 +17,7 @@ function MesProjets({children}) {
         {Projets.map(projet => (
           <div className="MesProjets" key={projet.id}>
             <article>
-              <Realisation key={projet.title} title={projet.title} />
+              <Realisation key={projet.title} title={projet.title} id={projet.id}/>
             </article>
           </div>
         ))}

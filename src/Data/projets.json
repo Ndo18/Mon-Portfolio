@@ -3,21 +3,24 @@
         "id": "1",
         "title": "Oh my Food !",
         "lien": "https://ndo18.github.io/Projet4/index.html",
-        "cover": "",
+        "lienGit": "",
+        "cover": "/public/cover_oh_my_food.png",
         "type": "HTML/CSS",
-        "description": ""
+        "description": "Le site Oh my Food ! est un site mobile first répertoriant des menus de restaurants gastronomiques. Le site est conçu de manière dynamique avec de nombreuses animations créées à l'aide de SASS"
     },
     {
         "id": "2",
         "title": "Portfolio de l'architecte Sophie Bluel",
+        "lienGit": "",
         "lien": "",
         "cover": "",
         "type": "JavaScript",
-        "description": ""
+        "description": "Ceci est le Portfolio de l'architecte Sophie Bluel. Sur son site figure différents projets filtré par catégorie, une page administrateur avec la possibilitée d'ajouter ou de supprimer des projets par le biais d'une modale"
     },
     {
         "id": "3",
         "title": "Kasa, application de location immobilière",
+        "lienGit": "",
         "lien": "",
         "cover": "",
         "type": "React.Js",
