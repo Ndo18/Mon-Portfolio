@@ -4,7 +4,7 @@ import SkillsList from './SkillsList'
 function MesCompetences ({children}){
     return (
         <div>
-        <h1>Mes Compétences</h1>
+        <h1 id='Competences'>Mes Compétences</h1>
         {children}
         {Competences.map((competence) =>(
             <SkillsList key={competence.id}

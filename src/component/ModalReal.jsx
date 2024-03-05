@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import Projets from '../Data/projets.json'
+import './styleComponent/ModalReal.css'
 
 function ModalReal({closeModal, id}) {
 
@@ -9,7 +10,6 @@ function ModalReal({closeModal, id}) {
     const projetsfilter = Projets.filter(projet => projet.id === id)
 
     setProjetsfilter(projetsfilter)
-    console.log("test", projetsfilter);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
 
@@ -19,11 +19,13 @@ function ModalReal({closeModal, id}) {
     </div>
     <div className="modale">
     {projetsfilter.map(projet => (
-      <div className='modale' key={projet.id}>
-        <img src={projet.cover} alt="Site Oh my Food !" />
-        <span>{projet.type}</span>
+      <div className='modalecontent' key={projet.id}>
+        <h2 className='titremodale'>{projet.title}</h2>
+        <img src={projet.cover} alt={projet.alt} />
+        <p>{projet.type}</p>
         <p>{projet.description}</p>
-        {/* <Link to={projet.lien}></Link> */}
+        <a href={projet.lien} target="_blank" rel="noopener noreferrer">Lien vers le site</a>
+        <br/><a href={projet.lienGit} target="_blank" rel="noopener noreferrer">Lien vers le repository GitHub</a>
       </div>
     ))}
     <i className="fa-solid fa-xmark" onClick={closeModal}></i>

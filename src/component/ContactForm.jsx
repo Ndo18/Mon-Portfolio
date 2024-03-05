@@ -23,7 +23,7 @@ export const ContactForm = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <h1>Contact</h1>
+      <h1 id='Contact'>Contact</h1>
       <label>Name</label>
       <input type="text" name="user_name" />
       <label>Email</label>
