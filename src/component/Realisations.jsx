@@ -1,17 +1,14 @@
-import { createPortal } from "react-dom"
-import ModaleReal from './ModalReal'
-import { useState } from "react"
 
-
-function Realisation ({title, logo, alt, id}){
-    const [showModal, setShowModal] = useState(false)
+function Realisation ({title, logo, alt, icone, icone2}){
 
     return(
     <>
         <img src={logo} alt={alt} />
-        <h3 onClick={() => setShowModal(true)}>{title}</h3>
-        {showModal &&
-        createPortal(<ModaleReal closeModal={() => setShowModal(false)} id={id}/>, document.body)}
+        <h3>{title}</h3>
+        <div className="iconetech">
+            <i className={icone}></i>
+            <i className={icone2}></i>
+        </div>
     </>
     )
 }

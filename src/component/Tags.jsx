@@ -3,7 +3,7 @@
 
 function Tags ({tags}){
     return(
-        <div>{tags}</div>
+        <span>{tags}</span>
     )
 }
 export default Tags

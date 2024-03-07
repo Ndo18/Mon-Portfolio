@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "HTML",
-        "logo": "",
+        "logo": "fa-brands fa-html5",
         "bibliotheque":[{
                         "name":"",
                         "logo":""
@@ -11,19 +11,19 @@
     {
         "id": "2",
         "name": "CSS",
-        "logo": "",
+        "logo": "fa-brands fa-css3",
         "bibliotheque":[{
                         "name":"SCSS",
-                        "logo":""
+                        "logo":"fa-brands fa-sass"
         }]
     },
     {
         "id": "3",
         "name": "JavaScript",
-        "logo": "",
+        "logo": "fa-brands fa-js",
         "bibliotheque":[{
                         "name":"React.js",
-                        "logo":""
+                        "logo":"fa-brands fa-react"
         },
                         {
                         "name":"Redux.js",
@@ -42,7 +42,7 @@
     {
         "id": "5",
         "name": "Déboggage",
-        "logo": "",
+        "logo": "fa-solid fa-screwdriver-wrench",
         "bibliotheque":[{
                         "name":"",
                         "logo":""
@@ -50,7 +50,7 @@
     }, {
         "id": "6",
         "name": "Gestion de projet Agile",
-        "logo": "",
+        "logo": "fa-solid fa-list-check",
         "bibliotheque":[{
                         "name":"",
                         "logo":""
@@ -59,7 +59,7 @@
     {
         "id": "7",
         "name": "API",
-        "logo": "",
+        "logo": "fa-solid fa-database",
         "bibliotheque":[{
                         "name":"",
                         "logo":""
@@ -68,7 +68,7 @@
     {
         "id": "8",
         "name": "NodeJS",
-        "logo": "",
+        "logo": "fa-brands fa-node",
         "bibliotheque":[{
                         "name":"",
                         "logo":""

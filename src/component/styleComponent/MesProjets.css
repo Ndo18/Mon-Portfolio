@@ -1,0 +1,51 @@
+.mesrealisations {
+  background-color: #F6F6F6;
+  padding: 20px;
+}
+
+.TagsContainer {
+  display: flex;
+  justify-content: center;
+}
+.TagsContainer .Tags {
+  margin: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.RealisationsContainer {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.RealisationsContainer .MesProjets {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 33%;
+  margin: 50px;
+  border-radius: 5px;
+  padding: 50px;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: -6px 10px 40px rgba(0, 0, 0, 0.1);
+}
+.RealisationsContainer .MesProjets img {
+  width: 55%;
+  height: 100%;
+  align-self: center;
+}
+.RealisationsContainer .MesProjets h3 {
+  text-align: center;
+  font-weight: 500;
+}
+.RealisationsContainer .MesProjets .iconetech {
+  display: flex;
+  position: absolute;
+  gap: 10px;
+  top: 20px;
+  right: 10px;
+  font-size: 25px;
+}/*# sourceMappingURL=MesProjets.css.map */
