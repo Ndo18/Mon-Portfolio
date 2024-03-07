@@ -15,11 +15,9 @@ function MesProjets({children}) {
       </div>
       <div className="RealisationsContainer">
         {Projets.map(projet => (
-          <div className="MesProjets" key={projet.id}>
-            <article>
-              <Realisation key={projet.title} title={projet.title} id={projet.id}/>
-            </article>
-          </div>
+          <article className="MesProjets" key={projet.id}>
+              <Realisation key={projet.title} title={projet.title} logo={projet.logo} alt={projet.alt} id={projet.id}/>
+          </article>
         ))}
       </div>
     </div>

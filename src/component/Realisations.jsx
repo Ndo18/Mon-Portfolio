@@ -3,12 +3,13 @@ import ModaleReal from './ModalReal'
 import { useState } from "react"
 
 
-function Realisation ({title, id}){
+function Realisation ({title, logo, alt, id}){
     const [showModal, setShowModal] = useState(false)
 
     return(
     <>
-        <p onClick={() => setShowModal(true)}>{title}</p>
+        <img src={logo} alt={alt} />
+        <h3 onClick={() => setShowModal(true)}>{title}</h3>
         {showModal &&
         createPortal(<ModaleReal closeModal={() => setShowModal(false)} id={id}/>, document.body)}
     </>
