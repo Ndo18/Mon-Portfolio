@@ -8,7 +8,7 @@
         "cover": "OmyF_cover.webp",
         "alt":"Oh my Food!",
         "type": "HTML/CSS",
-        "description": "Le site Oh my Food ! est un site mobile first répertoriant des menus de restaurants gastronomiques. Le site est conçu de manière dynamique avec de nombreuses animations créées à l'aide de SASS",
+        "description": "Le site Oh my Food ! est un site mobile first répertoriant des menus de restaurants gastronomiques. Le site est conçu de manière dynamique avec de nombreuses animations créées à l'aide de SASS.",
         "icone":"fa-brands fa-html5",
         "icone2":"fa-brands fa-sass"
     },
@@ -21,7 +21,7 @@
         "cover": "Sophie_Bluel_cover.webp",
         "alt":"Portfolio Sophie Bluel",
         "type": "JavaScript",
-        "description": "Ceci est le Portfolio de l'architecte Sophie Bluel. Sur son site figure différents projets filtré par catégorie, une page administrateur avec la possibilitée d'ajouter ou de supprimer des projets par le biais d'une modale",
+        "description": "Ceci est le Portfolio de l'architecte Sophie Bluel. Sur son site figure différents projets filtré par catégorie, une page administrateur avec la possibilitée d'ajouter ou de supprimer des projets par le biais d'une modale.",
         "icone":"fa-brands fa-js"
     },
     {
@@ -33,7 +33,7 @@
         "cover": "Kasa_cover.webp",
         "alt":"Kasa",
         "type": "React.Js",
-        "description": "Kasa site de location d'appartements entre particulier est un projet réaliser avec la technologie React.Js. Le site est structuré de différents composents constituant des pages. La navigation est assurée par react-router-dom",
+        "description": "Kasa site de location d'appartements entre particulier est un projet réaliser avec la technologie React.Js. Le site est structuré de différents composents constituant des pages. La navigation est assurée par react-router-dom.",
         "icone":"fa-brands fa-react"
     }
 ]

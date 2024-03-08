@@ -22,10 +22,15 @@ function ModalReal({closeModal, id}) {
       <div className='modalecontent' key={projet.id}>
         <h2 className='titremodale'>{projet.title}</h2>
         <img src={projet.cover} alt={projet.alt} />
-        <p>{projet.type}</p>
+        <div className='iconetechmodal'>
+          <i className={projet.icone}/>
+          <i className={projet.icone2}/>
+        </div>
         <p>{projet.description}</p>
-        <a href={projet.lien} target="_blank" rel="noopener noreferrer">Lien vers le site</a>
-        <br/><a href={projet.lienGit} target="_blank" rel="noopener noreferrer">Lien vers le repository GitHub</a>
+        <div className='mesliens'>
+        <a href={projet.lien} target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i> Lien vers le site</a>
+        <br/><a href={projet.lienGit} target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github"></i> Lien vers le repository GitHub</a>
+        </div>
       </div>
     ))}
     <i className="fa-solid fa-xmark" onClick={closeModal}></i>

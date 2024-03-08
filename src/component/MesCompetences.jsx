@@ -10,7 +10,9 @@ function MesCompetences ({children}){
             <SkillsList key={competence.id}
             id={competence.id}
             name={competence.name}
+            logo={competence.logo}
             bibliotheque={Array.isArray(competence.bibliotheque) ? competence.bibliotheque.map(library => library.name) : []}
+            logotech={Array.isArray(competence.bibliotheque) ? competence.bibliotheque.map(library => library.logo) : []}
             />
             ))
         }

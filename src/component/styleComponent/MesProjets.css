@@ -1,6 +1,7 @@
 .mesrealisations {
   background-color: #F6F6F6;
   padding: 20px;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1490196078);
 }
 
 .TagsContainer {
@@ -32,6 +33,17 @@
   background-color: white;
   box-shadow: -6px 10px 40px rgba(0, 0, 0, 0.1);
 }
+@keyframes projectszoom {
+  100% {
+    transform: scale(1.08);
+  }
+  0% {
+    transform: scale(1);
+  }
+}
+.RealisationsContainer .MesProjets:hover {
+  animation: projectszoom 0.3s ease-out forwards;
+}
 .RealisationsContainer .MesProjets img {
   width: 55%;
   height: 100%;
@@ -40,6 +52,15 @@
 .RealisationsContainer .MesProjets h3 {
   text-align: center;
   font-weight: 500;
+}
+.RealisationsContainer .MesProjets h3::after {
+  display: block;
+  content: "";
+  background-color: rgb(189, 189, 189);
+  width: 30%;
+  height: 1px;
+  margin: auto;
+  margin-top: 25px;
 }
 .RealisationsContainer .MesProjets .iconetech {
   display: flex;
