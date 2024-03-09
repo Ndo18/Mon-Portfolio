@@ -28,7 +28,7 @@ function ModalReal({closeModal, id}) {
         </div>
         <p>{projet.description}</p>
         <div className='mesliens'>
-        <a href={projet.lien} target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i> Lien vers le site</a>
+        <a href={projet.lien} target="_blank" rel="noopener noreferrer"><i className="fa-solid fa-link"></i> Lien vers le site</a>
         <br/><a href={projet.lienGit} target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-github"></i> Lien vers le repository GitHub</a>
         </div>
       </div>

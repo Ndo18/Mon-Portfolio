@@ -2,85 +2,73 @@
     {
         "id": "1",
         "name": "HTML",
-        "logo": "fa-brands fa-html5",
-        "bibliotheque":[{
-                        "name":"",
-                        "logo":""
-        }]
+        "logo": "Logo_html.webp",
+        "type": "Front End"
     },
     {
         "id": "2",
         "name": "CSS",
-        "logo": "fa-brands fa-css3",
-        "bibliotheque":[{
-                        "name":"SCSS",
-                        "logo":"fa-brands fa-sass"
-        }]
+        "logo": "Logo_css.webp",
+        "type": "Front End"
     },
     {
         "id": "3",
-        "name": "JavaScript",
-        "logo": "fa-brands fa-js",
-        "bibliotheque":[{
-                        "name":"React.js",
-                        "logo":"fa-brands fa-react"
-        },
-                        {
-                        "name":"Redux.js",
-                        "logo":""
-        }]
+        "name": "SCSS",
+        "logo": "Logo_scss.webp",
+        "type": "Front End"
     },
     {
         "id": "4",
-        "name": "SEO",
-        "logo": "",
-        "bibliotheque":[{
-                        "name":"",
-                        "logo":""
-        }]
+        "name": "JavaScript",
+        "logo": "Logo_javascript.webp",
+        "type": "Front End"
     },
     {
         "id": "5",
-        "name": "Déboggage",
-        "logo": "fa-solid fa-screwdriver-wrench",
-        "bibliotheque":[{
-                        "name":"",
-                        "logo":""
-        }]
-    }, {
+        "name": "React.js",
+        "logo": "Logo512.png",
+        "type": "Front End"
+    },
+    {
         "id": "6",
-        "name": "Gestion de projet Agile",
-        "logo": "fa-solid fa-list-check",
-        "bibliotheque":[{
-                        "name":"",
-                        "logo":""
-        }]
+        "name": "Redux.js",
+        "logo": "Logo_redux.webp",
+        "type": "Front End"
     },
     {
         "id": "7",
-        "name": "API",
-        "logo": "fa-solid fa-database",
-        "bibliotheque":[{
-                        "name":"",
-                        "logo":""
-        }]
+        "name": "SEO",
+        "logo": "Logo_SEO.webp",
+        "type": "General"
     },
     {
         "id": "8",
-        "name": "NodeJS",
-        "logo": "fa-brands fa-node",
-        "bibliotheque":[{
-                        "name":"",
-                        "logo":""
-        }]
-    },
+        "name": "Déboggage",
+        "logo": "Logo_debog.webp",
+        "type": "General"
+    }, 
     {
         "id": "9",
+        "name": "Gestion de projet Agile",
+        "logo": "Logo_agile.webp",
+        "type": "General"
+    },
+    {
+        "id": "10",
+        "name": "API",
+        "logo": "Logo_api.webp",
+        "type": "Back End"
+    },
+    {
+        "id": "11",
+        "name": "NodeJS",
+        "logo": "Logo_Nodejs.webp",
+        "type": "Back End"
+    },
+    {
+        "id": "12",
         "name": "MongoDB",
-        "logo": "",
-        "bibliotheque":[{
-                        "name":"",
-                        "logo":""
-        }]
+        "logo": "Logo_MongoDB.webp",
+        "type": "Back End"
     }
 ]

@@ -1,11 +1,15 @@
+import './styleComponent/SkillsList.css'
 
 function MesCompetences ({id, name, bibliotheque, logo, logotech}) {
     return (
         <div key={id}>
             <article className="skillscard">
-                <span>{name}<i className={logo}></i></span>
-                <span>{bibliotheque}<i className={logotech}></i></span>
-                <span></span>
+                <div className='maintech'>
+                    <img src={logo} alt=""/>
+                    <p>{name}</p>
+                </div>
+                <div >
+                </div>
             </article>
         </div>
     )
