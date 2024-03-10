@@ -8,14 +8,4 @@
   flex-wrap: wrap;
   padding: 20px;
   margin: 20px;
-}
-.competencesContainer h2 {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  width: 10%;
-  background-color: black;
-  color: white;
-  padding: 5px;
-  margin: auto;
 }/*# sourceMappingURL=MesCompetences.css.map */

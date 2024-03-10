@@ -15,7 +15,6 @@ function App() {
       <h1 id='Realisations'>Mes Réalisations</h1>
     </MesProjets>
     <MesCompetences>
-      <h2>Front End</h2>
     </MesCompetences>
     <ContactForm />
     <Footer />

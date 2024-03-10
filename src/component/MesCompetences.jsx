@@ -2,11 +2,10 @@ import Competences from '../Data/competences.json'
 import SkillsList from './SkillsList'
 import './styleComponent/MesCompetences.css'
 
-function MesCompetences ({children}){
+function MesCompetences (){
     return (
         <div className='competencesContainer'>
         <h1 id='Competences'>Mes Compétences</h1>
-        {children}
         <div className='mescompetences'> 
         {Competences.map((competence) =>(
             <SkillsList key={competence.id}

@@ -2,4 +2,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+.footer .lienReseaux {
+  margin: 20px;
+}
+.footer .lienReseaux a {
+  color: white;
+  margin: 2px;
+  font-size: 30px;
 }/*# sourceMappingURL=Footer.css.map */
