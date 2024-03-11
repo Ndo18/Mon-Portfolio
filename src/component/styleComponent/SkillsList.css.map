@@ -1,1 +1,1 @@
-{"version":3,"sources":["SkillsList.scss","SkillsList.css"],"names":[],"mappings":"AAEI;EACI,aAAA;EACA,sBAAA;EACA,YAAA;EAEA,kBAAA;ACFR;ADIQ;EACI,kBAAA;ACFZ;ADKQ;EACI,YAAA;EACA,aAAA;ACHZ","file":"SkillsList.css"}
+{"version":3,"sources":["SkillsList.scss","SkillsList.css"],"names":[],"mappings":"AACI;EACI,aAAA;EACA,sBAAA;EACA,YAAA;EACA,kBAAA;ACAR;ADEQ;EACI,qBAAA;ACAZ;ADGQ;EACI,kBAAA;ACDZ;ADIQ;EACI,YAAA;EACA,aAAA;ACFZ","file":"SkillsList.css"}

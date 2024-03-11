@@ -4,6 +4,7 @@ function Navbar () {
     return(
         <header>
             <nav  className="navbar">
+                <img src="Logo_code.png" alt="logo code" />
                 <ul>
                     <li>
                         <a href="#Presentation">Présentation</a>
@@ -21,7 +22,7 @@ function Navbar () {
                         <a href="#Contact">Contact</a>
                     </li>
                     <li>
-                        <a href="#CV">CV</a>
+                        <a href="Samuel_DMB_CV_2023.pdf" target="_blank" rel="noopener noreferrer">CV</a>
                     </li>
                 </ul>
             </nav>

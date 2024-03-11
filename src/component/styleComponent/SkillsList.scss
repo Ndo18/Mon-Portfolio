@@ -1,11 +1,13 @@
 .skillscard{
-    // width: 100%;
     .maintech{
         display: flex;
         flex-direction: column;
         margin: 20px;
-        // border: solid red 2px;
         text-align: center;
+
+        &:hover{
+            transform: scale(1.1);
+        }
 
         i, p{
             text-align: center;

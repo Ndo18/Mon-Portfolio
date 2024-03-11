@@ -9,7 +9,7 @@ function Presentation () {
         <article>
         <p>Diplomé d'un master en achats et fort d'une expérience de 4 ans en tant qu'acheteur, je me suis tourné vers le développement web
         depuis juin 2023. Je suis capable de réaliser la partie front-end de sites internet en utilisant différentes technologies que vous pouvez retrouver dans ma liste de <a href="#Competences">compétences</a>.
-        Vous pouvez retrouver différents projets que j'ai réalisé, ainsi que mon parcours sur mon CV.</p>
+        Vous pouvez retrouver les différents <a href="#Realisations">projets</a> que j'ai réalisé, ainsi que mon parcours sur mon <a href="Samuel_DMB_CV_2023.pdf" target="_blank" rel="noopener noreferrer">CV</a>.</p>
         </article>
         </div>
         </div>

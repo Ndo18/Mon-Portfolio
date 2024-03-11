@@ -4,6 +4,9 @@
   margin: 20px;
   text-align: center;
 }
+.skillscard .maintech:hover {
+  transform: scale(1.1);
+}
 .skillscard .maintech i, .skillscard .maintech p {
   text-align: center;
 }

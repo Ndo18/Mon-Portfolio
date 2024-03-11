@@ -6,6 +6,39 @@
     background-size: 13%;
     background-repeat: no-repeat;
     background-position: left 5% bottom 50%;
+
+    h3{
+        text-align: center;
+        margin: auto;
+        margin-bottom: 50px;
+        width: 50%;
+    }
+
+    .error{
+        margin-top: 10px;
+        color: red;
+        border: 2px red solid;
+        padding: 10px;
+        background-color: rgb(254, 152, 152)
+    }
+
+    .success{
+        margin-top: 10px;
+        color: green;
+        border: 2px green solid;
+        padding: 10px;
+        background-color: rgb(106, 217, 98)
+    }
+
+    .submitbutton{
+        background-color: black;
+        color: white;
+        border: black 2px solid;
+        border-radius: 5px;
+        padding: 10px;
+        width: 20%;
+        margin-top: 5px;
+    }
 }
 
 .contactform{
