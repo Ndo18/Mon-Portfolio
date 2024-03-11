@@ -11,9 +11,9 @@ function Navbar () {
                     <li>
                         <a href="#Realisations">Réalisations</a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="#Activites">Activités</a>
-                    </li>
+                    </li> */}
                     <li>
                         <a href="#Competences">Compétences</a>
                     </li>
@@ -27,6 +27,5 @@ function Navbar () {
             </nav>
         </header>
     )
-
 }
 export default Navbar
