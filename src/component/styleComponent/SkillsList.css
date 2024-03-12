@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   margin: 20px;
-  text-align: center;
 }
 .skillscard .maintech:hover {
   transform: scale(1.1);
@@ -13,4 +12,5 @@
 .skillscard .maintech img {
   width: 150px;
   height: 150px;
+  margin: 20px;
 }/*# sourceMappingURL=SkillsList.css.map */

@@ -1,6 +1,6 @@
 import './styleComponent/SkillsList.css'
 
-function MesCompetences ({id, name, bibliotheque, logo, logotech}) {
+function MesCompetences ({id, name, logo}) {
     return (
         <div key={id}>
             <article className="skillscard">
