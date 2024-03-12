@@ -13,4 +13,10 @@
   color: white;
   margin: 2px;
   font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  footer .copyright {
+    text-align: center;
+  }
 }/*# sourceMappingURL=Footer.css.map */

@@ -6,30 +6,36 @@
     background-size: 13%;
     background-repeat: no-repeat;
     background-position: left 5% bottom 50%;
-
+    
     h3{
         text-align: center;
         margin: auto;
         margin-bottom: 50px;
         width: 50%;
     }
-
+    
     .error{
-        margin-top: 10px;
         color: red;
         border: 2px red solid;
         padding: 10px;
-        background-color: rgb(254, 152, 152)
-    }
-
-    .success{
+        background-color: rgb(254, 152, 152);
+        text-align: center;
+        width: 48%;
+        margin: auto;
         margin-top: 10px;
+    }
+    
+    .success{
         color: green;
         border: 2px green solid;
         padding: 10px;
-        background-color: rgb(106, 217, 98)
+        background-color: rgb(106, 217, 98);
+        text-align: center;
+        width: 48%;
+        margin: auto;
+        margin-top: 10px;
     }
-
+    
     .submitbutton{
         background-color: black;
         color: white;
@@ -47,4 +53,32 @@
     flex-direction: column;
     width: 50%;
     margin: auto;
+}
+
+//MEDIA QUERIES
+
+@media (max-width: 768px){
+    .formulaire{
+        padding: 25px;
+        background-position: left 8% bottom 50%;
+        h3{
+            margin: 0;
+            font-size: smaller;
+            text-align: justify;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        .contactform{
+            width: 80%;
+            margin-right: 0px;
+
+            .submitbutton{
+                width: 50%;
+            }
+        }
+        .msgonsubmit{
+            width: 100%;
+        }
+    }
 }

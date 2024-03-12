@@ -50,9 +50,11 @@ export const ContactForm = () => {
         <label>Message</label>
         <textarea name="message" placeholder='Écrivez votre message'/>
         <input type="submit" value="Envoyer" className='submitbutton'/>
+      </form>
+        <div className="msgonsubmit">
       {error && <p className="error">{error}</p>}
       {success && <p className="success">Votre message a bien été envoyé !</p>}
-      </form>
+        </div>
     </div>
   );
 };

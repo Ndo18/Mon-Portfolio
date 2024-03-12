@@ -14,5 +14,14 @@
             font-size: 30px;
         }
     }
+}
 
+//MEDIA QUERIES
+
+@media (max-width: 768px){
+    footer{
+        .copyright{
+            text-align: center;
+        }
+    }
 }

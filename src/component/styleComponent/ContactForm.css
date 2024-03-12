@@ -14,18 +14,24 @@
   width: 50%;
 }
 .formulaire .error {
-  margin-top: 10px;
   color: red;
   border: 2px red solid;
   padding: 10px;
   background-color: rgb(254, 152, 152);
+  text-align: center;
+  width: 48%;
+  margin: auto;
+  margin-top: 10px;
 }
 .formulaire .success {
-  margin-top: 10px;
   color: green;
   border: 2px green solid;
   padding: 10px;
   background-color: rgb(106, 217, 98);
+  text-align: center;
+  width: 48%;
+  margin: auto;
+  margin-top: 10px;
 }
 .formulaire .submitbutton {
   background-color: black;
@@ -43,4 +49,28 @@
   flex-direction: column;
   width: 50%;
   margin: auto;
+}
+
+@media (max-width: 768px) {
+  .formulaire {
+    padding: 25px;
+    background-position: left 8% bottom 50%;
+  }
+  .formulaire h3 {
+    margin: 0;
+    font-size: smaller;
+    text-align: justify;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .formulaire .contactform {
+    width: 80%;
+    margin-right: 0px;
+  }
+  .formulaire .contactform .submitbutton {
+    width: 50%;
+  }
+  .formulaire .msgonsubmit {
+    width: 100%;
+  }
 }/*# sourceMappingURL=ContactForm.css.map */
