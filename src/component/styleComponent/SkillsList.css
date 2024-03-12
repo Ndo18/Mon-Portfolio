@@ -13,4 +13,18 @@
   width: 150px;
   height: 150px;
   margin: 20px;
+}
+
+@media (max-width: 768px) {
+  .skillscard .maintech {
+    margin: 0;
+  }
+  .skillscard .maintech img {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+  }
+  .skillscard .maintech p {
+    font-size: small;
+  }
 }/*# sourceMappingURL=SkillsList.css.map */

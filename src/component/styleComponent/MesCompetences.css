@@ -9,4 +9,13 @@
   padding: 20px;
   justify-content: center;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .competencesContainer #Competences {
+    text-align: center;
+  }
+  .competencesContainer .mescompetences {
+    padding: 0;
+  }
 }/*# sourceMappingURL=MesCompetences.css.map */

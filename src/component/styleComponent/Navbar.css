@@ -53,10 +53,10 @@ header .navbar a {
     cursor: pointer;
   }
   header .navbar .menuburger span {
-    height: 0.4rem;
+    height: 5px;
     width: 100%;
     background-color: white;
-    border-radius: 0.2rem;
+    border-radius: 2px;
   }
   header .navbar ul {
     display: none;

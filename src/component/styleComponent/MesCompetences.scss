@@ -10,5 +10,18 @@
         justify-content: center;
         width: 100%;
     }
+}
 
+//MEDIA QUERIES
+
+@media (max-width: 768px){
+    .competencesContainer{
+        #Competences{
+            text-align: center;
+        }
+
+        .mescompetences{
+            padding: 0;
+        }
+    }
 }
