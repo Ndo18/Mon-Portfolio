@@ -83,4 +83,32 @@
   height: 0.5px;
   width: 100%;
   margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .modale {
+    width: auto;
+    right: 10px;
+    left: 10px;
+  }
+  .modale .modalecontent .titremodale {
+    font-size: larger;
+  }
+  .modale .modalecontent .titremodale::after {
+    display: none;
+  }
+  .modale .modalecontent p {
+    text-align: justify;
+    font-size: small;
+  }
+  .modale .modalecontent p::before {
+    height: 1px;
+  }
+  .modale .modalecontent .mesliens {
+    font-size: smaller;
+    gap: 20px;
+  }
+  .modale .modalecontent img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=ModalReal.css.map */

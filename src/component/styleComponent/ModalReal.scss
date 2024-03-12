@@ -94,3 +94,41 @@
         }
     }
 }
+
+//MEDIA QUERIES 
+
+@media (max-width: 768px){
+    .modale{
+        width: auto;
+        right: 10px;
+        left: 10px;
+        .modalecontent{
+
+            .titremodale{
+                font-size: larger;
+
+                &::after{
+                    display: none;
+                }
+            }
+
+            p{
+                text-align: justify;
+                font-size: small;
+
+                &::before{
+                    height: 1px;
+                }
+            }
+
+            .mesliens{
+                font-size: smaller;
+                gap: 20px;
+            }
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
