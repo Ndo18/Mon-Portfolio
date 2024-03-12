@@ -9,7 +9,7 @@
         
         p{
             padding: 20px;
-            font-size: 25px;
+            font-size: x-large;
             text-align: center;
         }
     }
@@ -18,4 +18,30 @@
         width: 50%;
         height: 50%;
     }
+}
+
+//MEDIA QUERIES
+
+@media (max-width: 768px){
+.presentation{
+
+    h1{
+        text-align: center;
+    }
+
+    .prescontainer{
+        display: flex;
+        flex-direction: column;
+
+        img{
+            width: 70px;
+        }
+
+        p{
+            margin: 0;
+            font-size: small;
+            text-align: justify;
+        }
+    }
+}
 }

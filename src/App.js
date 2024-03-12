@@ -11,9 +11,7 @@ function App() {
     <>
     <Navbar />
     <Presentation />
-    <MesProjets>
-      <h1 id='Realisations'>Mes Réalisations</h1>
-    </MesProjets>
+    <MesProjets />
     <MesCompetences>
     </MesCompetences>
     <ContactForm />

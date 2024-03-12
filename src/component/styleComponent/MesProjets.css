@@ -69,4 +69,30 @@
   top: 20px;
   right: 10px;
   font-size: 25px;
+}
+
+@media (max-width: 768px) {
+  .mesrealisations h1 {
+    text-align: center;
+  }
+  .mesrealisations .TagsContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .mesrealisations .TagsContainer .Tags {
+    margin: 5px;
+  }
+  .mesrealisations .RealisationsContainer {
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+  }
+  .mesrealisations .RealisationsContainer .MesProjets {
+    align-items: center;
+    width: auto;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+  }
 }/*# sourceMappingURL=MesProjets.css.map */

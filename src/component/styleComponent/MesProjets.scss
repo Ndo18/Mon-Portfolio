@@ -79,3 +79,36 @@
         }
     }
 }
+
+//MEDIA QUERIES
+
+@media (max-width: 768px){
+.mesrealisations{
+    h1{
+        text-align: center;
+    }
+    .TagsContainer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .Tags{
+            margin: 5px;
+        }
+    }
+
+    .RealisationsContainer{
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+
+        .MesProjets{
+            align-items: center;
+            width: auto;
+            padding: 20px;
+            margin: auto;
+            margin-top: 20px;
+        }
+    }
+}
+}

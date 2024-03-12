@@ -6,12 +6,12 @@ import './styleComponent/MesProjets.css'
 import { createPortal } from 'react-dom';
 import ModalReal from './ModalReal';
 
-function MesProjets({children}) {
+function MesProjets() {
   const [showModal, setShowModal] = useState(false)
 
   return (
-      <div className="mesrealisations">
-        {children}
+    <div className="mesrealisations">
+      <h1 id='Realisations'>Mes Réalisations</h1>
       <div className="TagsContainer">
         {Projets.map(projet => (
           <div className='Tags' key={projet.id}>

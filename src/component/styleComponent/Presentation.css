@@ -9,10 +9,28 @@
 }
 .presentation .prescontainer p {
   padding: 20px;
-  font-size: 25px;
+  font-size: x-large;
   text-align: center;
 }
 .presentation img {
   width: 50%;
   height: 50%;
+}
+
+@media (max-width: 768px) {
+  .presentation h1 {
+    text-align: center;
+  }
+  .presentation .prescontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .presentation .prescontainer img {
+    width: 70px;
+  }
+  .presentation .prescontainer p {
+    margin: 0;
+    font-size: small;
+    text-align: justify;
+  }
 }/*# sourceMappingURL=Presentation.css.map */
