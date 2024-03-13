@@ -63,6 +63,10 @@
   border-radius: 12px;
   padding: 10px;
 }
+.modalecontent .mesliens .disabled {
+  pointer-events: none;
+  color: grey;
+}
 .modalecontent .iconetechmodal {
   display: flex;
   justify-content: flex-end;
