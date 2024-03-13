@@ -24,9 +24,9 @@ function Navbar () {
                     <li>
                         <a href="#Realisations" onClick={closeMenu}>Réalisations</a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="#Activites" onClick={closeMenu}>Activités</a>
-                    </li>
+                    </li> */}
                     <li>
                         <a href="#Competences" onClick={closeMenu}>Compétences</a>
                     </li>
