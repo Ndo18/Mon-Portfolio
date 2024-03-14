@@ -85,12 +85,11 @@
   }
   .mesrealisations .RealisationsContainer {
     flex-direction: column;
-    margin: 0;
-    width: 100%;
+    margin: auto;
   }
   .mesrealisations .RealisationsContainer .MesProjets {
     align-items: center;
-    width: auto;
+    width: 85%;
     padding: 20px;
     margin: auto;
     margin-top: 20px;
