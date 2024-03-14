@@ -90,8 +90,12 @@
   .mesrealisations .RealisationsContainer .MesProjets {
     align-items: center;
     width: 85%;
+    height: 150px;
     padding: 20px;
     margin: auto;
     margin-top: 20px;
+  }
+  .mesrealisations .RealisationsContainer .MesProjets img {
+    height: inherit;
   }
 }/*# sourceMappingURL=MesProjets.css.map */
