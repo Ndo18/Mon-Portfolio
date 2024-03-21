@@ -67,8 +67,13 @@
                 border-radius: 12px;
                 padding: 10px;
             }
-        }
 
+        }
+        
+        .disabled{
+            pointer-events: none;
+            color: grey;
+        }
     }
     .iconetechmodal{
         display: flex;

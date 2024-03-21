@@ -85,14 +85,17 @@
   }
   .mesrealisations .RealisationsContainer {
     flex-direction: column;
-    margin: 0;
-    width: 100%;
+    margin: auto;
   }
   .mesrealisations .RealisationsContainer .MesProjets {
     align-items: center;
-    width: auto;
+    width: 85%;
+    height: 150px;
     padding: 20px;
     margin: auto;
     margin-top: 20px;
+  }
+  .mesrealisations .RealisationsContainer .MesProjets img {
+    height: inherit;
   }
 }/*# sourceMappingURL=MesProjets.css.map */
