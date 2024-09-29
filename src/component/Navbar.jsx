@@ -9,7 +9,7 @@ function Navbar () {
     return(
         <header>
             <nav  className="navbar">
-                <img src="Logo_code.png" alt="logo code" />
+                <img src={`${process.env.PUBLIC_URL}/Logo_code.png`} alt="logo code" />
                 <div className="menuburger" onClick={() => {
                     setMenuOpen(!menuOpen)
                 }}>
@@ -33,9 +33,9 @@ function Navbar () {
                     <li>
                         <a href="#Contact" onClick={closeMenu}>Contact</a>
                     </li>
-                    <li>
+                    {/* <li>
                         <a href="Samuel_DOUMBE_LOBE_CV_Canada.pdf" target="_blank" rel="noopener noreferrer" onClick={closeMenu}>CV</a>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
         </header>

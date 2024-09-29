@@ -21,7 +21,7 @@ function ModalReal({closeModal, id}) {
     {projetsfilter.map(projet => (
       <div className='modalecontent' key={projet.id}>
         <h2 className='titremodale'>{projet.title}</h2>
-        <img src={projet.cover} alt={projet.alt} />
+        <img src={`${process.env.PUBLIC_URL}/${projet.cover}`} alt={projet.alt} />
         <div className='iconetechmodal'>
           <i className={projet.icone}/>
           <i className={projet.icone2}/>

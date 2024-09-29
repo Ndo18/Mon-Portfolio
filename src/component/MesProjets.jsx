@@ -24,7 +24,7 @@ function MesProjets() {
           <article onClick={() => setShowModal(projet.id)} className="MesProjets" key={projet.id}>
               <Realisation key={projet.title} 
                 title={projet.title} 
-                logo={projet.logo} 
+                logo={`${process.env.PUBLIC_URL}/${projet.logo}`}
                 alt={projet.alt} 
                 id={projet.id}
                 icone={projet.icone}

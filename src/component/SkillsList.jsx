@@ -5,7 +5,7 @@ function MesCompetences ({id, name, logo}) {
         <div key={id}>
             <article className="skillscard">
                 <div className='maintech'>
-                    <img src={logo} alt=""/>
+                    <img src={`${process.env.PUBLIC_URL}/${logo}`} alt={name} />
                     <p>{name}</p>
                 </div>
                 <div >

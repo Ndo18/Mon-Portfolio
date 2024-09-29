@@ -5,11 +5,14 @@ function Presentation () {
         <div className="presentation">
         <h1 id="Presentation">Présentation</h1>
         <div className='prescontainer'>
-        <img src="ImgProfil.png" alt="Profil icone" />
+        <img src={`${process.env.PUBLIC_URL}/ImgProfil.png`} alt="Profil icone" />
         <article>
-        <p>Diplomé d'un master en achats et fort d'une expérience de 4 ans en tant qu'acheteur, je me suis tourné vers le développement web
-        depuis juin 2023. Je suis capable de réaliser la partie front-end de sites internet en utilisant différentes technologies que vous pouvez retrouver dans ma liste de <a href="#Competences">compétences</a>.
-        Vous pouvez retrouver les différents <a href="#Realisations">projets</a> que j'ai réalisé, ainsi que mon parcours sur mon <a href="Samuel_DOUMBE_LOBE_CV_Canada.pdf" target="_blank" rel="noopener noreferrer">CV</a>.</p>
+        <p>Bonjour, je suis Samuel, développeur front-end passionné par React.js ! En tant que freelance, j’ai créé des interfaces dynamiques et intégré des API REST sur divers projets.
+        J’aime relever des défis techniques avec des solutions créatives, tout en offrant des expériences utilisateur intuitives.
+        Je suis aussi capable de réaliser des projets full stack avec Node.js et MongoDB.
+        N’hésitez pas à jeter un œil à mes <a href='#Realisations'>projets sur mon site</a> et <a href='https://github.com/Ndo18'>mon GitHub</a>. 
+        <br></br>Je suis enthousiaste à l'idée de collaborer sur des projets innovants, contactez moi <a href='#Contact'>ici</a> !
+        <br></br>À bientôt !</p>
         </article>
         </div>
         </div>
