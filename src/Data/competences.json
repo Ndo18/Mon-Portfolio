@@ -49,36 +49,48 @@
     },
     {
         "id": "9",
+        "name": "Shopify",
+        "logo": "Shopify_logo.webp",
+        "type": "CMS"
+    },
+    {
+        "id": "10",
+        "name": "WordPress",
+        "logo": "Wordpress_logo.webp",
+        "type": "CMS"
+    },
+    {
+        "id": "11",
         "name": "SEO",
         "logo": "Logo_SEO.webp",
         "type": "General"
     },
     {
-        "id": "10",
+        "id": "12",
         "name": "Déboggage",
         "logo": "Logo_debog.webp",
         "type": "General"
     }, 
     {
-        "id": "11",
+        "id": "13",
         "name": "Gestion de projet Agile",
         "logo": "Logo_agile.webp",
         "type": "General"
     },
     {
-        "id": "12",
-        "name": "API",
+        "id": "14",
+        "name": "API REST",
         "logo": "Logo_api.webp",
         "type": "Back End"
     },
     {
-        "id": "13",
+        "id": "15",
         "name": "NodeJS",
         "logo": "Logo_Nodejs.webp",
         "type": "Back End"
     },
     {
-        "id": "14",
+        "id": "16",
         "name": "MongoDB",
         "logo": "Logo_MongoDB.webp",
         "type": "Back End"
