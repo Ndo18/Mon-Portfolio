@@ -35,5 +35,17 @@
         "type": "React.Js",
         "description": "Kasa site de location d'appartements entre particulier est un projet réaliser avec la technologie React.Js. Le site est structuré de différents composents constituant des pages. La navigation est assurée par react-router-dom.",
         "icone":"fa-brands fa-react"
+    },
+    {
+        "id": "4",
+        "title": "Service AES Dépannage",
+        "lienGit": "https://github.com/Ndo18/aes_depannage",
+        "lien": "https://ndo18.github.io/aes_depannage/",
+        "logo": "service_aes_depannage_logo2.jpeg",
+        "cover": "Illustration_aes.png",
+        "alt":"AES Depannage",
+        "type": "React.Js",
+        "description": "Service AES Dépannage est un site pour un société de dépannage réalisé avec React.JS + Vite. La stucture est faite de plusieurs blocs de composants tous agencés afin d'obtenir une uniformité visuelle, et de bibliothèque React pour la diaporama par exemple. La navigation fluide est assurée par react-router-dom",
+        "icone":"fa-brands fa-react"
     }
 ]

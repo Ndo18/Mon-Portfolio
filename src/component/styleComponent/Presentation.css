@@ -13,8 +13,8 @@
   text-align: center;
 }
 .presentation img {
-  width: 15%;
-  height: 15%;
+  width: 50%;
+  height: 50%;
 }
 
 @media (max-width: 768px) {

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Projets from '../Data/projets.json';
 import Realisation from './Realisations';
-import Tags from './Tags';
+// import Tags from './Tags';
 import './styleComponent/MesProjets.css'
 import { createPortal } from 'react-dom';
 import ModalReal from './ModalReal';
@@ -12,13 +12,13 @@ function MesProjets() {
   return (
     <div className="mesrealisations">
       <h1 id='Realisations'>Mes Réalisations</h1>
-      <div className="TagsContainer">
+      {/* <div className="TagsContainer">
         {Projets.map(projet => (
           <div className='Tags' key={projet.id}>
             <Tags tags={projet.type} />
           </div>
         ))}
-      </div>
+      </div> */}
       <div className="RealisationsContainer">
         {Projets.map(projet => (
           <article onClick={() => setShowModal(projet.id)} className="MesProjets" key={projet.id}>

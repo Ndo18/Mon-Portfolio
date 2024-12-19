@@ -18,20 +18,21 @@
 
 .RealisationsContainer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin: 50px;
+  margin: 15px;
 }
 .RealisationsContainer .MesProjets {
   display: flex;
   position: relative;
   flex-direction: column;
-  width: 33%;
-  margin: 50px;
-  border-radius: 5px;
-  padding: 50px;
-  cursor: pointer;
   background-color: white;
+  width: 35%;
+  height: 35vh;
+  border-radius: 5px;
   box-shadow: -6px 10px 40px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  margin: 15px;
 }
 @keyframes projectszoom {
   100% {
@@ -45,19 +46,22 @@
   animation: projectszoom 0.3s ease-out forwards;
 }
 .RealisationsContainer .MesProjets img {
-  width: 55%;
-  height: 100%;
+  width: 20%;
+  margin: auto;
+  margin-bottom: 0;
   align-self: center;
 }
 .RealisationsContainer .MesProjets h3 {
   text-align: center;
   font-weight: 500;
+  margin: auto;
+  margin-top: 20px;
 }
 .RealisationsContainer .MesProjets h3::after {
   display: block;
   content: "";
   background-color: rgb(189, 189, 189);
-  width: 30%;
+  width: 50%;
   height: 1px;
   margin: auto;
   margin-top: 25px;
@@ -90,12 +94,12 @@
   .mesrealisations .RealisationsContainer .MesProjets {
     align-items: center;
     width: 85%;
-    height: 150px;
+    height: 25vh;
     padding: 20px;
     margin: auto;
     margin-top: 20px;
   }
   .mesrealisations .RealisationsContainer .MesProjets img {
-    height: inherit;
+    width: 35%;
   }
 }/*# sourceMappingURL=MesProjets.css.map */
