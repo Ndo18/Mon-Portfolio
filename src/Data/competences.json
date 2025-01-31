@@ -94,5 +94,11 @@
         "name": "MongoDB",
         "logo": "Logo_MongoDB.webp",
         "type": "Back End"
+    },
+    {
+        "id": "17",
+        "name": "TypeScript",
+        "logo": "Typescript_logo.webp",
+        "type": "Front End"
     }
 ]

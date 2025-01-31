@@ -19,7 +19,7 @@ function Footer() {
                 <a href="https://github.com/Ndo18"><i className="fa-brands fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/samuel-doumbe-lobe-a3a340151/"><i className="fa-brands fa-linkedin"></i></a>
             </div>
-            <div className="copyright"><i className="fa-regular fa-copyright"></i> {currentYear} Samuel DOUMBE LOBE, Tous droits réservés.</div>
+            <div className="copyright"><i className="fa-regular fa-copyright"></i> {currentYear} Samuel Doumbe Lobe, Tous droits réservés.</div>
         </footer>
     )
 }
